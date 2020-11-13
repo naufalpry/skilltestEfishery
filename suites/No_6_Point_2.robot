@@ -9,7 +9,7 @@ Library         Selenium2Library
 *** Variables ***
 ${url_api_efishery}     https://stein.efishery.com
 *** Keywords *** 
-API PA Jadwal Dokter
+API
        CreateSession        detail       ${url_api_efishery}             verify=True
 
        ${header}=      Create Dictionary       Content-Type=application/json        
@@ -27,8 +27,8 @@ API PA Jadwal Dokter
             END
             Log     ${count}   WARN
 *** Test Cases ***
-Login Jadwal Dokter
-    API PA Jadwal Dokter
+Response API & Total Buleleng
+    API
 
                    
                    
