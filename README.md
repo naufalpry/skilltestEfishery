@@ -15,11 +15,11 @@ Quick Start
 
 ##### Method 1: use docker-compose
 
-    cd robot-framework-docker && docker-compose up
+    cd skilltestEfishery && docker-compose up
     
 ##### Method 2: use bash
 
-    cd robot-framework-docker && ./run_tests.sh
+    cd skilltestEfishery && ./run_tests.sh
     
 
 NOTE
