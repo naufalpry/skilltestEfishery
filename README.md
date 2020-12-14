@@ -5,7 +5,7 @@ Quick Start
 
 ### Clone this repository
 
-    git clone https://github.com/naufalpry/skilltestEfishery.git
+    git clone https://github.com/naufalpry/robot.test.git
 
 ### Pull the image.
 
